@@ -1,0 +1,41 @@
+/* 
+.abc{
+    position: relative;
+    top: 50px;
+    left: 50px;
+}*/
+/*
+.abc{
+    position: fixed;
+    bottom: 20px;
+    left: 10px;
+}*/
+/*
+div{
+    border: solid 1px red;
+    height: 180px;
+    position: relative;
+}
+p{
+    border: solid 1px black;
+}
+.abc{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}*/
+div{
+    border: solid 1px blue;
+    height: 15;
+
+}
+h3{
+    position: relative;
+    z-index: 5px;
+}
+p{
+    background-color: aquamarine;
+    position: relative;
+    top: -25px;
+    z-index: 1px;
+}

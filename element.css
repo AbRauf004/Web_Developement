@@ -1,0 +1,59 @@
+h1{
+    color: springgreen;
+}
+#rauf{
+    color: rgb(0, 209, 7);
+    background-color: rgb(245, 12, 12);
+    padding: 10px;
+}
+.name{
+    color:aqua;
+    font-weight: bold;
+}
+#25{
+    color: rgb(31, 217, 80);
+}
+li.special{
+    color: blue;
+}
+a:hover{
+    color: brown;
+    text-decoration: none;
+}
+
+ul li:hover{
+    color: blue;
+}
+h1 #35{
+    color: blueviolet;
+}
+li[class~="a"]{
+    font-size: 300%;
+}
+#35{
+    color: saddlebrown;
+}
+
+/*Combination Selector*/
+p.xyz{
+    background-color: cadetblue;
+}
+
+/*Attribute Seloector*/
+input[type="text"]{
+    color: red;
+}
+
+/* Descendant Selector */
+div li1{
+    color: aqua;
+}
+
+/* Child Selector */
+ul>li{
+    color: darkgoldenrod;
+}
+/*Grouping Selector*/
+p,h5{
+    color: blueviolet;
+}
